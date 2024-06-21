@@ -1,0 +1,42 @@
+[
+    {
+        "image": {
+            "dark": "maquetacion-dark",
+            "ligth": "maquetacion-ligth"
+        },
+        "title": "Maquetación Web",
+        "description": "Transformación de tus ideas y diseños en páginas web funcionales y atractivas, asegurando una estructura sólida y una experiencia de usuario intuitiva."
+    },
+    {
+        "image": {
+            "dark": "responsive-dark",
+            "ligth": "responsive-ligth"
+        },
+        "title": "Responsive Design",
+        "description": "Desarrollo de sitios web que se adaptan perfectamente a cualquier dispositivo o pantalla."
+    },
+    {
+        "image": {
+            "dark": "debug-dark",
+            "ligth": "debug-ligth"
+        },
+        "title": "Depuración de Errores",
+        "description": "Identificación y solución rápida de problemas en tu código, garantizando un funcionamiento sin contratiempos de tu aplicación web."
+    },
+    {
+        "image": {
+            "dark": "api-dark",
+            "ligth": "api-ligth"
+        },
+        "title": "Integración de API",
+        "description": "Integración de manera experta servicios externos y APIs en tu aplicación web, proporcionando funcionalidades adicionales y mejorando la conectividad."
+    },
+    {
+        "image": {
+            "dark": "deploy-dark",
+            "ligth": "deploy-ligth"
+        },
+        "title": "Despliegue (Deploying)",
+        "description": "Lleva tus proyectos al siguiente nivel con implementaciones eficientes, garantizando un inicio exitoso en servidores y entornos de producción."
+    }
+]

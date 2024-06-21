@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Git",
+        "image": "git.png"
+    },
+    {
+        "name": "Bitbucket",
+        "image": "bitbucket.png"
+    },{
+        "name": "GitHub",
+        "image": "github.png"
+    }
+]

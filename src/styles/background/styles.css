@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-custom-dark {
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    position: fixed;
+    transition: background 500ms ease-in-out;
+
+}
+
+.bg-custom-ligth {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    transition: background 500ms ease-in-out;
+
+}
+
+.parallelogram {
+    -webkit-transform: skew(-40deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    transform: skew(-40deg);
+    position: absolute;
+    z-index: -9;
+}
+
+#root {
+    position: relative;
+    /* border: 4px solid rgba(255, 6, 6, 0.1);
+    padding: 0 40px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    border-radius: 15px; */
+}
+
+#one {
+    width: 20px;
+    height: 300px;
+    border-radius: 2px;
+    animation: moveBar 15s linear infinite;
+    -webkit-box-shadow: 100px 509px var(--color-primario), 20px 300px #120715, -120px 150px var(--color-primario);
+    -moz-box-shadow: 100px 509px var(--color-primario), 20px 300px var(--color-primario), -120px 150px var(--color-primario);
+    box-shadow: 100px 509px var(--color-primario), 20px 300px var(--color-primario), -120px 150px var(--color-primario);
+}
+
+#two {
+    width: 10px;
+    height: 300px;
+    border-radius: 2px;
+
+    animation: moveBar 30s linear infinite;
+    -webkit-box-shadow: 250px 450px var(--color-segundario), -50px 200px var(--color-segundario);
+    -moz-box-shadow: 250px 450px var(--color-segundario), -50px 200px var(--color-segundario);
+    box-shadow: 250px 450px var(--color-segundario), -50px 200px var(--color-segundario);
+}
+
+#three {
+    width: 10px;
+    height: 500px;
+    border-radius: 2px;
+
+    animation: moveBar 20s linear infinite;
+    -webkit-box-shadow: 70px 500px var(--color-terciario), -100px 200px var(--color-terciario);
+    -moz-box-shadow: 70px 500px var(--color-terciario), -100px 200px var(--color-terciario);
+    box-shadow: 70px 500px var(--color-terciario), -100px 200px var(--color-terciario);
+}
+
+@keyframes moveBar {
+    100% {
+        transform: skew(-40deg) translateY(-1000px);
+    }
+}

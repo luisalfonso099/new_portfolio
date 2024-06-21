@@ -1,0 +1,83 @@
+@import './background/styles.css';
+@import './tools/styles.css';
+@import './navbar/styles.css';
+@import './cards/card_perfil.css';
+@import './skills/styles.css';
+@import './precentation/styles.css';
+@import './projects/styles.css';
+@import './sevices/styles.css';
+@import './contact/styles.css';
+@import './footer/styles.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Sora:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --color-primario: #3dbaf3;
+    --color-segundario: #80d1f9; 
+    --color-terciario:#e1f2fd; 
+}
+
+*{
+    font-family: 'Sora', sans-serif;
+    /* transition: all 500ms ease-in-out; */
+}
+
+.container-main{
+    position: relative;
+    top: 70.5px;
+    bottom: 70.5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    padding: 0 8%;
+    max-width: 1600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.border-ligth {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.border-dark {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.p-5{
+    padding: 5px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.border-bottom-ligth {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media screen and (max-width: 995px) {
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 0px;
+        width: 95%;
+        border: none;
+    }
+}

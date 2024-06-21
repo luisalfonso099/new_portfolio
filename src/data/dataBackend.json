@@ -1,0 +1,11 @@
+[
+   
+    {
+        "name": "Node.js",
+        "image": "node.png"
+    },
+    {
+        "name": "Laravel",
+        "image": "laravel.svg"
+    }
+]

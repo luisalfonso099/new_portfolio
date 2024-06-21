@@ -1,0 +1,18 @@
+.content-footer{
+    margin-top: 70px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 995px) {
+    .content-footer{
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 20px;
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+        text-align: center;
+    }
+}

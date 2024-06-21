@@ -1,0 +1,101 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.content-contact {
+    margin: 100px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-text {
+    width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-form div {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.contact-form input,
+textarea {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn-send {
+    position: relative;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.btn-send span {
+    position: relative;
+}
+
+.btn-send::before {
+    position: absolute;
+    content: '';
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: var(--color-primario);
+    transition: width 0.5s ease-in-out;
+}
+
+.btn-send:hover::before {
+    width: 100%;
+}
+
+.error-message {
+    color: brown;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 800px) {
+    .content-contact {
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-text {
+        width: 95%;
+        backdrop-filter: blur(30px);
+        padding: 10px;
+    }
+
+    .contact-form {
+        width: 95%;
+    }
+
+    .contact-form div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    
+}
