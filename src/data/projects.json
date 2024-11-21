@@ -10,5 +10,11 @@
         "image": "imagine.png",
         "color": "rgba(255, 255, 255, 0.1)",
         "url": "https://www.imaginemymg.com/"
+    },
+    {
+        "name": "Web Site Breathe in speak out",
+        "image": "biso.svg",
+        "color": "#6F205A",
+        "url": "https://www.pahbreatheinspeakout.com/"
     }
 ]
