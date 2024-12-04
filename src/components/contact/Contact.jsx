@@ -37,8 +37,8 @@ const Contact = () => {
       <div className="border-bottom-ligth"></div>
       <div className="content-contact">
         <div className="contact-text">
-          <h2>¡Hagamos que tu marca brille!</h2>
-          <p>Si desea trabajar con nosotros o simplemente quiere ponerse en contacto, ¡nos encantaría saber de usted!</p>
+          {/* <h2>¡Hagamos que tu marca brille!</h2> */}
+          <p>Si busca un profesional comprometido, con pasión por aprender y contribuir al éxito de su empresa, estaré encantado de conversar sobre cómo puedo ser parte de su equipo. ¡Espero saber de usted pronto!</p>
         </div>
         <Formik
           initialValues={{ name: '', email: '', subject: '', message: '' }}
@@ -58,10 +58,10 @@ const Contact = () => {
             </div>
             <Field name="subject" type="text" placeholder="Asunto" className={`border-${darkTheme ? 'dark text-white' : 'ligth '}`} />
             {errors.subject ? (<div className='error-message'>{errors.subject}</div>) : null}
-            <Field name="message" as="textarea" placeholder="Mensaje" className={`border-${darkTheme ? 'dark text-white' : 'ligth'}`} />
+            <Field name="message" as="textarea" placeholder="Mensaje" className={`p-3 border-${darkTheme ? 'dark text-white' : 'ligth'}`} />
             {errors.message ? (<div className='error-message'>{errors.message}</div>) : null}
             <button type="submit" className={`btn-send border-${darkTheme ? 'dark text-white' : 'ligth'}`}>
-              <span>SEND A MESSAGE</span>
+              <span>ENVIAR</span>
             </button>
           </Form>
         )}

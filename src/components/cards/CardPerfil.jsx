@@ -1,8 +1,8 @@
 import profileImage from '../../assets/images/img-perfil.png'
 import linkedin from '../../assets/icons/linkedin.svg'
-import github from '../../assets/icons/github.svg'
+// import github from '../../assets/icons/github.svg'
 import linkedinDark from '../../assets/icons/linkedin-dark.svg'
-import githubDark from '../../assets/icons/github-dark.svg'
+// import githubDark from '../../assets/icons/github-dark.svg'
 
 import useTheme from '../../hooks/useTheme';
 import { useEffect, useState } from 'react'
@@ -36,7 +36,7 @@ const CardPerfil = () => {
 
         <div className='flex justify-center gap-5'>
             <img className={`w-9 my-5 rounded-full p-2 cursor-pointer hover:bg-[--color-primario] border-${darkTheme ? 'dark' : 'ligth'}`} src={darkTheme ? linkedin : linkedinDark} />
-            <img className={`w-9 my-5 rounded-full p-2 cursor-pointer hover:bg-[--color-primario] border-${darkTheme ? 'dark' : 'ligth'}`} src={!darkTheme ? github : githubDark} />
+            {/* <img className={`w-9 my-5 rounded-full p-2 cursor-pointer hover:bg-[--color-primario] border-${darkTheme ? 'dark' : 'ligth'}`} src={!darkTheme ? github : githubDark} /> */}
         </div>
         <p className={darkTheme ? 'text-white' : ''}>luisalfonso099@gmail.com</p>
     </div>

@@ -8,6 +8,8 @@ const Projects = () => {
   return (
     <section className={"projects-container rounded-md " + (darkTheme ? 'text-white' : '')} id="portfolio">
       <h2 className="text-3xl">PORTFOLIO</h2>
+      
+<p>Aquí puedes explorar algunos de los proyectos en los que he trabajado desde su concepción hasta su finalización, aplicando las mejores prácticas de desarrollo y asegurando diseños completamente adaptables tanto para dispositivos móviles como de escritorio.</p>
       <div className="border-bottom-ligth"></div>
       <div className="lg:flex gap-5 text-center mt-12">
         {

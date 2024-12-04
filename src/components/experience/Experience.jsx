@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import flechaDark from '../../assets/images/derecha-dark.png';
-import flecha from '../../assets/images/derecha-ligth.png';
+// import flechaDark from '../../assets/images/derecha-dark.png';
+// import flecha from '../../assets/images/derecha-ligth.png';
 import WT from '../../assets/images/wunderman_thompson.jpg';
 import alkemy from '../../assets/images/alkemy.jpg';
 import Acamica from '../../assets/images/Acamica.jpg';
@@ -44,30 +44,30 @@ const data = [
 const Experience = () => {
 
     const { darkTheme } = useTheme();
-    const [experienceData, setExperienceData] = useState(data);
+    const [experienceData] = useState(data);
 
-    const showDesc = (index) => {
-        setExperienceData((prevData) => {
-            return prevData.map((item, i) => {
-                if (i === index) {
-                    return {
-                        ...item,
-                        description: {
-                            ...item.description,
-                            state: !item.description.state,
-                        },
-                    };
-                }
-                return item;
-            });
-        });
-    };
+    // const showDesc = (index) => {
+    //     setExperienceData((prevData) => {
+    //         return prevData.map((item, i) => {
+    //             if (i === index) {
+    //                 return {
+    //                     ...item,
+    //                     description: {
+    //                         ...item.description,
+    //                         state: !item.description.state,
+    //                     },
+    //                 };
+    //             }
+    //             return item;
+    //         });
+    //     });
+    // };
 
     return (
         <div className={'' + (darkTheme && ' text-white')} id="about">
             <h3>Experiencia</h3>
             <ul>
-                {experienceData.map((item, index) => (
+                {experienceData.map((item) => (
                     <li key={item.name} className={`list-none min-h-20 transition-all ${darkTheme ? ' border-bottom-ligth ' : ' border-bottom-dark'}`}>
                         <div className="flex justify-between mt-7">
                             <div className="flex items-center w-full">
@@ -76,17 +76,17 @@ const Experience = () => {
                             </div>
                             <div className="flex items-center">
                                 <img className="empresa" src={item.image} alt="" />
-                                <button className={`bg-transparent border-0 transition-all cursor-pointer ${item.description.state && 'rotate-90'}`} onClick={() => showDesc(index)}>
+                                {/* <button className={`bg-transparent border-0 transition-all cursor-pointer ${item.description.state && 'rotate-90'}`} onClick={() => showDesc(index)}>
                                     <img className="w-7 md:w-14" src={darkTheme ? flecha : flechaDark} alt="" />
-                                </button>
+                                </button> */}
                             </div>
                         </div>
-                        {item.description.state && (
+                        {/* {item.description.state && (
                             <div className={`p-4 rounded-md mt-5 border-${darkTheme ? 'dark font-thin' : 'ligth font-extralight'}`}>
                                 <h4>{item.description.rol}</h4>
                                 <p className={`text-sm md:text-lg md:leading-7 my-7 font-extralight`}>{item.description.text}</p>
                             </div>
-                        )}
+                        )} */}
                     </li>
                 ))}
             </ul>
