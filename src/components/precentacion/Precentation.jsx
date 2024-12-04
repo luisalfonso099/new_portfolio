@@ -13,7 +13,7 @@ const Precentation = () => {
             <div className="content-text-precentation p-7">
                 <h1 className={`sm:text-4xl text-3xl lg:text-6xl leading-normal text-center lg:text-left ${darkTheme && ' text-white'}`}>
                     Hola, soy <span className="text-[--color-primario]">Luis Laguado</span>,<br className=""/>
-                    Front-End Developer.
+                    Front-end Developer.
                 </h1>
                 <div className={`flex justify-center sm:justify-start items-center gap-4 mt-20 flex-wrap ${darkTheme ?  'text-white font-thin' : 'font-extralight '}`} >
                     <span className="text-4xl sm:text-6xl font-semibold">+3</span>
