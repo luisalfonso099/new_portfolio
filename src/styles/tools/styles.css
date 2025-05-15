@@ -10,7 +10,14 @@
     cursor: pointer;
 }
 
-.icon-ajustes{
+.icon-ajustes {
     width: 25px;
     height: 25px;
+}
+
+@media screen and (max-width: 995px) {
+    .tool-container {
+        background-color: transparent;
+    }
+
 }

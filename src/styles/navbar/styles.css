@@ -51,6 +51,7 @@ a{
 .btn-menu-content {
     display: none;
     padding: 10px;
+    cursor: pointer;
 }
 
 .list-nav li::after {
@@ -94,7 +95,7 @@ a{
     }
 
     .dos {
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
 
     .list-nav {
@@ -151,7 +152,7 @@ a{
 
     #btn-menu:checked~label .uno {
         transform: translateY(11px) rotate(40deg);
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
 
     #btn-menu:checked~label .dos {

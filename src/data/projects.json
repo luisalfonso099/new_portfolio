@@ -3,18 +3,21 @@
         "name": "Web Site Uptravi",
         "image": "uptravi.png",
         "color": "#006E3B",
-        "url": "https://www.uptravi.com/"
-    },
-    {
-        "name": "Web Site iMagineMyMg",
-        "image": "imagine.png",
-        "color": "rgba(255, 255, 255, 0.1)",
-        "url": "https://www.imaginemymg.com/"
+        "url": "https://www.uptravi.com/",
+        "description": "Uptravi – Sitio web para marca farmacéutica Desarrollé desde cero junto a un equipo de 3 personas una web responsiva y fiel al diseño en Figma, usando HTML, Sass, JS y Next.js. A pesar de la alta carga visual (imágenes y videos), optimizamos el rendimiento logrando una performance superior al 90% en Lighthouse."
     },
     {
         "name": "Web Site Breathe in speak out",
         "image": "biso.svg",
         "color": "#6F205A",
-        "url": "https://www.pahbreatheinspeakout.com/"
+        "url": "https://www.pahbreatheinspeakout.com/",
+        "description": "PAH Breathe In Speak Out – Sitio web informativo sobre hipertensión pulmonar Lideré el desarrollo junto a otro desarrollador, implementando un diseño proporcionado en Figma con HTML, Sass, JS y Next.js. Además de optimizar el rendimiento (Lighthouse >90%) en un sitio con alto contenido multimedia, desarrollé pruebas unitarias utilizando Jest para asegurar la calidad del código."
+    },
+    {
+        "name": "Web Site iMagineMyMg",
+        "image": "imagine.png",
+        "color": "rgba(255, 255, 255, 0.1)",
+        "url": "https://www.imaginemymg.com/",
+        "description": "Imagine My MG – Sitio web educativo sobre miastenia gravis Desarrollé por completo este sitio web de forma individual, implementando un diseño complejo en Figma con HTML, Sass, JS y Next.js. Me enfoqué en mantener un código limpio, modular y optimizado, logrando un rendimiento superior al 90% en Lighthouse y una experiencia fluida en todos los dispositivos."
     }
 ]
