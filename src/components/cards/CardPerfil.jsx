@@ -34,10 +34,10 @@ const CardPerfil = () => {
             <img className='max-w-prose' src={ profileImage} alt="" />
         </div>
 
-        <div className='flex justify-center gap-5'>
+        <a href='https://www.linkedin.com/in/luis-laguado/' target='__blank' className='flex justify-center gap-5'>
             <img className={`w-9 my-5 rounded-full p-2 cursor-pointer hover:bg-[--color-primario] border-${darkTheme ? 'dark' : 'ligth'}`} src={darkTheme ? linkedin : linkedinDark} />
             {/* <img className={`w-9 my-5 rounded-full p-2 cursor-pointer hover:bg-[--color-primario] border-${darkTheme ? 'dark' : 'ligth'}`} src={!darkTheme ? github : githubDark} /> */}
-        </div>
+        </a>
         <p className={darkTheme ? 'text-white' : ''}>luisalfonso099@gmail.com</p>
     </div>
   )
